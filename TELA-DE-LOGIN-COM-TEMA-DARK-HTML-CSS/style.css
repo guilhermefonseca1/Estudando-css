@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    align-items: center;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px auto;
+    margin-right: 0px auto;
+    margin-top: opx auto;
+    padding: 40px 40px;
+  }
+
+  .left-login{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 50vw;
+    background-color: blue;
+  }
+
+  .main-login {
+    align-items: center;
+    /* background-color: #201b2c; */
+    border-radius: 100px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    width: 90vw;
+  }
+
+  .right-login {
+    background-color:black
+  }
