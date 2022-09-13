@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
@@ -5,10 +7,12 @@
     padding: 0;
   }
 
+
   body {
     align-items: center;
     background-color:black;
     display: flex;
+    font-family: 'Noto Sans', sans-serif;
     justify-content: center;
     margin-left: 0px auto;
     margin-right: 0px auto;
@@ -61,6 +65,11 @@
 
   .left-login > h1 {
     color: #00ff88;
+    font-size: 3vw;
+  }
+
+  .left-login-image {
+    width: 30vw;
   }
 
   .main-login {
@@ -89,6 +98,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 10px 0px;
+    width: 100%;
   }
 
   .textfield > input {
@@ -112,3 +122,13 @@
     color: #00ff88; 
   }
 
+  @media only screen and (max-width: 950px) {
+    .card-login {
+      width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+  }
+  
